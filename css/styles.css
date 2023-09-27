@@ -12,20 +12,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /**===============HEADER===============*/
 .header {
 }
@@ -40,7 +26,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo span {
+.header-logo-span {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -111,6 +97,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--IRIS, #4d5ae5);
+  cursor: pointer
 }
 
 .order-service-btn:hover,
@@ -229,7 +216,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo span {
+.footer-logo-span {
   color: var(--CLOUD, #f4f4fd);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
