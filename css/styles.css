@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -32,8 +32,8 @@ a {
 .header-navigation {
 }
 .header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -41,8 +41,8 @@ a {
   text-transform: uppercase;
 }
 .header-logo span {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -70,12 +70,14 @@ a {
   letter-spacing: 0.02em;
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
 .header-address-item {
 }
 .header-address-link {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -103,15 +105,12 @@ a {
 }
 .order-service-btn {
   color: var(--WHITE, #fff);
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
 
 .order-service-btn:hover,
@@ -122,9 +121,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: var(--OCEAN, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /**===================================*/
 
@@ -165,11 +162,7 @@ a {
 .team-list {
 }
 .team-item {
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-img {
 }
@@ -228,8 +221,8 @@ a {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -237,8 +230,8 @@ a {
   text-transform: uppercase;
 }
 .footer-logo span {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  color: var(--CLOUD, #f4f4fd);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
